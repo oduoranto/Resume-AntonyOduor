@@ -1,0 +1,204 @@
+
+* {
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  div {
+    border-radius: 5px;
+  }
+  
+  #header {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    
+  }
+  
+  #title {
+    margin-left: 3%;
+  }
+  
+  #footer {
+    height: 50px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .left {
+    height: 1000px;
+    width: 45px;
+    float: left;
+    position: fixed;
+  }
+  
+  .right {
+    height: 1000px;
+    width: 45px;
+    float: right;
+    position: inherit;
+  }
+  
+  .stuff {
+    color: orchid;
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 75%;
+    height: 1000px;
+  }
+  
+  p, li {
+    font-family: 'Cormorant Garamond';
+  }
+  
+  .head {
+    font-size: 20px;
+  }
+  
+  #name {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+
+  *{
+    background-color: hsl(0, 0%, 10%);
+    color: white;
+
+}
+
+.top{
+    display: flex;
+}
+.logo .label{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo span{
+    color:green;
+    
+}
+
+.navbar ul{
+    display: flex;
+
+}
+.navbar ul li{
+    list-style: none;
+    padding: 10px;  
+}
+.navbar a{
+    text-decoration: none;
+    transition: 0.20s;
+
+}
+.navbar a:hover{
+    color: orangered; 
+}
+
+.home .title{
+    font-size: 40px;
+    color: green;
+}
+.home{
+    margin-bottom: 20%;
+    text-align: center;
+    margin-top: 70px;
+    line-height: 40px;
+}
+.about{
+line-height: 20px;
+margin-bottom: 20%;
+margin-left: 20px;
+}
+
+.about a{
+    text-decoration: none;
+    background-color: rgb(50, 102, 162);
+    border-radius: 10px;
+    transition: 0.20s;
+    color: black;
+    padding: 8px;
+
+}
+.about a:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.skills{
+    margin-bottom: 15%;
+    line-height: 20px;
+    margin-left: 50%;
+}
+
+ h3{
+    color: cadetblue;
+    margin-bottom: 6px;
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.form{
+    margin-top: 15%;
+    margin-left: 20px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    
+}
+.form .upper1{
+    display: block;
+    margin-bottom: 5px;
+}
+.form input,button{
+    border-color: aquamarine;
+    display: block;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    
+}   
+.form .btn{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #2a76a2;
+    border: none;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 9px;
+    
+}
+::placeholder{
+    color:grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form input:focus{
+    outline: none;
+}
+
+.middle{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.icons i{
+    padding: 4px;
+    transition: .3s ease;
+    cursor: pointer;
+    font-size: x-large;
+
+}
+.icons i:hover{
+    color:orchid;
+}
